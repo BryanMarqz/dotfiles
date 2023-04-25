@@ -1,0 +1,29 @@
+Git configuration:
+
+Step 1: Setup Git (Include quotes!)
+git config --global user.name "Your Name"
+git config --global user.email "yourname@example.com"
+
+git config --global color.ui auto
+
+git config --get user.name
+git config --get user.email
+
+echo .DS_Store >> ~/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global
+
+Step 1.2: Sign into GitHub
+
+Step 2: Create an SSH Key
+ls ~/.ssh/id_rsa.pub
+
+If you already have the key, skip next step.
+ssh-keygen -C <youremail>
+
+Step 3: Link Your SSH Key with GitHub
+cat ~/.ssh/id_rsa.pub
+
+Step 4: Test Connection
+ssh -T git@github.com
+
+git config --global init.defaultBranch main
