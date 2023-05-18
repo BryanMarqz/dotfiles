@@ -12,7 +12,7 @@ choco install --ignore-checksums ea-app epicgameslauncher goggalaxy ubisoft-conn
 
 choco install --ignore-checksums <package_name>
 
---- Missing: Oculus and Glorious Core ---
+--- Missing: Oculus, Glorious Core and Battle.net ---
 
 --- EXTRA ---
 
