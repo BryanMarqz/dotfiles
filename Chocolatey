@@ -12,7 +12,7 @@ choco install --ignore-checksums plexmediaserver jellyfin notepadplusplus winrar
 
 choco install --ignore-checksums <package_name>
 
---- Missing: Oculus, Glorious Core and Battle.net ---
+--- Missing: Oculus, Glorious Core , Battle.net and SubSync ---
 
 --- EXTRA ---
 
