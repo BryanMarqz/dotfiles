@@ -1,5 +1,7 @@
 Git configuration:
 
+For arch on windows add sudo pacman -S openssh
+
 Step 1: Setup Git (Include quotes!)
 git config --global user.name "Your Name"
 git config --global user.email "yourname@example.com"
