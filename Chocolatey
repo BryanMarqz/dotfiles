@@ -23,9 +23,6 @@ choco install chromium
 
 choco install launchbox dotnetcore-3.1-sdk
 
-choco install blitz.gg
-
-choco install jellyfin
 --- C++ ---
 
 https://code.visualstudio.com/docs/cpp/config-mingw
