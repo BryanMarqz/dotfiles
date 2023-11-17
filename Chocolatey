@@ -16,7 +16,7 @@ vlc tailscale anaconda3
 
 choco install --ignore-checksums <package_name>
 
---- Missing: Oculus, Glorious Core, QtSpim and Battle.net ---
+--- Missing: Oculus, Glorious Core, QtSpim, Battle.net, RSI Launcher  ---
 
 --- EXTRA ---
 
