@@ -7,7 +7,7 @@ Set-ExecutionPolicy AllSigned
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
 choco install -y --ignore-checksums notepadplusplus winrar ea-app epicgameslauncher goggalaxy ubisoft-connect leagueoflegends steam amazongames wiztree putty 
-qbittorrent ds4windows vortex obs-studio discord sunshine webos-dev-manager rockstar-launcher vscode 
+qbittorrent vortex obs-studio discord sunshine webos-dev-manager rockstar-launcher vscode 
 minecraft-launcher geforce-game-ready-driver icue mingw python bitwarden git universal-extractor 
 vlc tailscale
 
