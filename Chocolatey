@@ -17,6 +17,8 @@ choco install --ignore-checksums <package_name>
 
 --- EXTRA ---
 
+choco upgrade all -y
+
 choco install chromium
 
 choco install launchbox dotnetcore-3.1-sdk
