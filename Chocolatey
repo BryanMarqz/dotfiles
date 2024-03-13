@@ -15,7 +15,7 @@ overwolf msiafterburner sunshine anki mysql bethesdanet chromium launchbox dotne
 
 choco install --ignore-checksums <package_name>
 
---- Missing: Oculus, Glorious Core, Battle.net, RSI Launcher ---
+--- Missing: Oculus, Glorious Core, Battle.net, RSI Launcher, Npcap ---
 
 --- EXTRA ---
 
