@@ -9,13 +9,14 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco install -y --ignore-checksums notepadplusplus winrar ea-app epicgameslauncher goggalaxy ubisoft-connect leagueoflegends 
 steam amazongames wiztree putty qbittorrent vortex obs-studio discord sunshine webos-dev-manager rockstar-launcher vscode 
 mingw minecraft-launcher geforce-game-ready-driver icue python bitwarden git universal-extractor vlc tailscale ds4windows
-overwolf msiafterburner sunshine mysql bethesdanet chromium launchbox dotnetcore-3.1-sdk filezilla wireshark anaconda3 docker-desktop
+overwolf msiafterburner sunshine mysql bethesdanet chromium launchbox dotnetcore-3.1-sdk filezilla wireshark anaconda3 
+docker-desktop xampp-74
 
 --- if not working ---
 
 choco install --ignore-checksums <package_name>
 
---- Missing: Oculus, Glorious Core, Battle.net, RSI Launcher, Npcap (choco install winpcap) ---
+--- Missing: Oculus, Glorious Core, Battle.net, RSI Launcher, Npcap (choco install winpcap), DrRacket ---
 
 --- EXTRA ---
 
