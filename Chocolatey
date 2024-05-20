@@ -16,7 +16,7 @@ docker-desktop xampp-74
 
 choco install --ignore-checksums <package_name>
 
---- Missing: Oculus, Glorious Core, Battle.net, RSI Launcher, Npcap (choco install winpcap), DrRacket ---
+--- Missing: Oculus, Glorious Core, Battle.net, RSI Launcher, Npcap (choco install winpcap) ---
 
 --- EXTRA ---
 
