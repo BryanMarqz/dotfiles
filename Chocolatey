@@ -7,21 +7,27 @@ Set-ExecutionPolicy AllSigned
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
 choco install -y --ignore-checksums notepadplusplus winrar ea-app epicgameslauncher goggalaxy ubisoft-connect leagueoflegends 
-steam amazongames wiztree putty qbittorrent vortex obs-studio discord sunshine webos-dev-manager rockstar-launcher vscode 
-mingw minecraft-launcher geforce-game-ready-driver icue python bitwarden git universal-extractor vlc tailscale ds4windows
-overwolf msiafterburner sunshine mysql bethesdanet chromium launchbox dotnetcore-3.1-sdk filezilla wireshark anaconda3 
-docker-desktop xampp-74
+steam amazongames wiztree putty qbittorrent vortex obs-studio discord webos-dev-manager rockstar-launcher vscode mingw 
+minecraft-launcher geforce-game-ready-driver icue bitwarden git universal-extractor ds4windows overwolf msiafterburner
+bethesdanet chromium launchbox dotnetcore-3.1-sdk anaconda3 zoom
+
 
 --- if not working ---
 
 choco install --ignore-checksums <package_name>
 
---- Missing: Oculus, Glorious Core, Battle.net, RSI Launcher, Npcap (choco install winpcap) ---
+--- Missing: Glorious Core, Battle.net, RSI Launcher ---
 
 --- EXTRA ---
+
+Npcap (choco install winpcap)
 
 choco upgrade all -y
 
 --- C++ ---
 
 https://code.visualstudio.com/docs/cpp/config-mingw
+
+--- Deleted ---
+
+choco uninstall docker-desktop xampp-74 filezilla wireshark vlc tailscale python sunshine mysql
