@@ -12,6 +12,8 @@ minecraft-launcher geforce-game-ready-driver icue bitwarden git universal-extrac
 bethesdanet miniconda3 zoom
 
 
+choco install -y --ignore-checksums notepadplusplus winrar ea-app epicgameslauncher goggalaxy ubisoft-connect leagueoflegends steam amazongames wiztree putty qbittorrent vortex obs-studio discord webos-dev-manager rockstar-launcher vscode mingw minecraft-launcher geforce-game-ready-driver icue bitwarden git universal-extractor ds4windows overwolf msiafterburner bethesdanet miniconda3 zoom 
+
 --- if not working ---
 
 choco install --ignore-checksums <package_name>
