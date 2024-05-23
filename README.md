@@ -1,2 +1,2 @@
-# ConfigFiles
-Just random config files :P
+# Dotfiles
+Making life easier.
