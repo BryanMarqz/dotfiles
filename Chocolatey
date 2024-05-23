@@ -9,7 +9,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco install -y --ignore-checksums notepadplusplus winrar ea-app epicgameslauncher goggalaxy ubisoft-connect leagueoflegends 
 steam amazongames wiztree putty qbittorrent vortex obs-studio discord webos-dev-manager rockstar-launcher vscode mingw 
 minecraft-launcher geforce-game-ready-driver icue bitwarden git universal-extractor ds4windows overwolf msiafterburner
-bethesdanet chromium launchbox dotnetcore-3.1-sdk anaconda3 zoom
+bethesdanet chromium launchbox dotnetcore-3.1-sdk miniconda3 zoom
 
 
 --- if not working ---
