@@ -14,5 +14,3 @@ set path+=**
 
 " For indents that consist of 4 space characters
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
-
-https://github.com/romkatv/powerlevel10k
