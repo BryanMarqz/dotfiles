@@ -1,0 +1,30 @@
+tap "homebrew/bundle"
+# Mac App Store command-line interface
+brew "mas"
+# Theme for zsh
+brew "powerlevel10k"
+# Voice and text chat software
+cask "discord"
+# Cross-platform Git credential storage for multiple hosting providers
+cask "git-credential-manager"
+# Minimal installer for conda
+cask "miniconda"
+# Peer to peer Bitorrent client
+cask "qbittorrent"
+# Music streaming service
+cask "spotify"
+# Open-source code editor
+cask "visual-studio-code"
+# Multimedia player
+cask "vlc"
+# Video communication and virtual meeting platform
+cask "zoom"
+mas "Bitwarden", id: 1352778147
+mas "Goodnotes", id: 1444383602
+mas "Microsoft Excel", id: 462058435
+mas "Microsoft PowerPoint", id: 462062816
+mas "Microsoft Word", id: 462054704
+mas "OneDrive", id: 823766827
+mas "PayPal Honey", id: 1472777122
+mas "Save to Pocket", id: 1477385213
+mas "WhatsApp", id: 1147396723
