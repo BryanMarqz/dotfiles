@@ -1,2 +1,0 @@
-# Dotfiles
-Making life easier.
