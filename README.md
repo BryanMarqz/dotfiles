@@ -1,1 +1,1 @@
-My personal configuration files.
+Instrucctions for macOS.
