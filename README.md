@@ -16,7 +16,7 @@ xcode-select --install
 git clone git@github.com:BryanMarqz/dotfiles.git ~/.dotfiles/macOS
 
 # ...or use HTTPS and switch remotes later.
-git clone https://github.com/eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dotfiles/macOS
+git clone https://github.com/BryanMarqz/dotfiles.git ~/.dotfiles/macOS
 ```
 
 
