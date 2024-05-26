@@ -26,8 +26,14 @@ git clone https://github.com/eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dotf
 # There are better and less manual ways to do this;
 # investigate install scripts and bootstrapping tools.
 
-ln -s ~/.dotfiles/macOS/.zshrc ~/.zshrc
+ln -s ~/.dotfiles/macOS/.ssh ~/.ssh
+ln -s ~/.dotfiles/macOS/.CFUserTextEncoding ~/.CFUserTextEncoding
 ln -s ~/.dotfiles/macOS/.gitconfig ~/.gitconfig
+ln -s ~/.dotfiles/macOS/.gitignore_global ~/.gitignore_global
+ln -s ~/.dotfiles/macOS/.p10k.zsh ~/.p10k.zsh
+ln -s ~/.dotfiles/macOS/.vimrc ~/.vimrc
+ln -s ~/.dotfiles/macOS/.zprofile ~/.zprofile
+ln -s ~/.dotfiles/macOS/.zshrc ~/.zshrc
 ```
 
 
