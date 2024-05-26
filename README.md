@@ -1,4 +1,4 @@
-# Dotfiles
+# Dotfiles on macOS
 
 ## Steps to bootstrap a new Mac
 
@@ -13,10 +13,10 @@ xcode-select --install
 
 ```zsh
 # Use SSH (if set up)...
-git clone git@github.com:eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dotfiles
+git clone git@github.com:eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dotfiles/macOS
 
 # ...or use HTTPS and switch remotes later.
-git clone https://github.com/eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dotfiles
+git clone https://github.com/eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dotfiles/macOS
 ```
 
 
@@ -26,8 +26,8 @@ git clone https://github.com/eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dotf
 # There are better and less manual ways to do this;
 # investigate install scripts and bootstrapping tools.
 
-ln -s ~/.dotfiles/.zshrc ~/.zshrc
-ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
+ln -s ~/.dotfiles/macOS/.zshrc ~/.zshrc
+ln -s ~/.dotfiles/macOS/.gitconfig ~/.gitconfig
 ```
 
 
@@ -40,10 +40,10 @@ ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Then pass in the Brewfile location...
-brew bundle --file ~/.dotfiles/Brewfile
+brew bundle --file ~/.dotfiles/macOS/Brewfile
 
 # ...or move to the directory first.
-cd ~/.dotfiles && brew bundle
+cd ~/.dotfiles/macOS && brew bundle
 ```
 
 
