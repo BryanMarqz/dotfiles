@@ -3,7 +3,7 @@
 # Path to the brew_dump.sh script
 SCRIPT_PATH="$HOME/.dotfiles/macOS/mac_bootstrap_scripts/brew_dump.sh"
 
-# Cron job to run the brew_dump.sh script daily at 2 AM
+# Cron job to run the brew_dump.sh script daily at 00:00:00 AM
 CRON_JOB="0 0 * * * $SCRIPT_PATH"
 
 # Check if the cron job already exists
