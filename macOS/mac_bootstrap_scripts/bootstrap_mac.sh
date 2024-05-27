@@ -13,3 +13,6 @@
 
 # Step 4: Install Homebrew and Packages
 ./install_homebrew_and_packages.sh
+
+# Step 5: Add cron job
+./add_cron_job.sh
