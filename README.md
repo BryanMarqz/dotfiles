@@ -1,53 +1,25 @@
-# Dotfiles on macOS
+# Bootstrap Scripts for various OS.
 
-## Steps to bootstrap a new Mac
+This repository contains scripts to automate the bootstrapping of a new machines using dotfiles and package managers.
 
-1. Install Apple's Command Line Tools, which are prerequisites for Git and Homebrew.
+## Steps to Bootstrap a New Mac
 
-```zsh
-xcode-select --install
+### Running the Bootstrap Script
+
+Run the `bootstrap_mac.sh` script to execute all steps at once:
+
+```sh
+./bootstrap_mac.sh
 ```
 
+### Adding the Cron Job
 
-2. Clone repo into new hidden directory.
+To automate the Brewfile dump, run the `add_cron_job.sh` script:
 
-```zsh
-# Use SSH (if set up)...
-git clone git@github.com:BryanMarqz/dotfiles.git ~/.dotfiles/macOS
-
-# ...or use HTTPS and switch remotes later.
-git clone https://github.com/BryanMarqz/dotfiles.git ~/.dotfiles/macOS
+```sh
+./add_cron_job.sh
 ```
 
+## Steps to Bootstrap a New Linux Machine (in progress)
 
-3. Create symlinks in the Home directory to the real files in the repo.
-
-```zsh
-# There are better and less manual ways to do this;
-# investigate install scripts and bootstrapping tools.
-
-ln -s ~/.dotfiles/macOS/.ssh ~/.ssh
-ln -s ~/.dotfiles/macOS/.CFUserTextEncoding ~/.CFUserTextEncoding
-ln -s ~/.dotfiles/macOS/.gitconfig ~/.gitconfig
-ln -s ~/.dotfiles/macOS/.gitignore_global ~/.gitignore_global
-ln -s ~/.dotfiles/macOS/.p10k.zsh ~/.p10k.zsh
-ln -s ~/.dotfiles/macOS/.vimrc ~/.vimrc
-ln -s ~/.dotfiles/macOS/.zprofile ~/.zprofile
-ln -s ~/.dotfiles/macOS/.zshrc ~/.zshrc
-```
-
-
-4. Install Homebrew, followed by the software listed in the Brewfile.
-
-```zsh
-# These could also be in an install script.
-
-# Install Homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-# Then pass in the Brewfile location...
-brew bundle --file ~/.dotfiles/macOS/Brewfile
-
-# ...or move to the directory first.
-cd ~/.dotfiles/macOS && brew bundle
-```
+## Steps to Bootstrap a New Windows Machine (in progress)
