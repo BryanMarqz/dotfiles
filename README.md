@@ -40,10 +40,14 @@ ssh-keygen -t ed25519
 cat ~/.ssh/id_ed25519.pub
 ```
 
-### Use SSH
+### Clone repo into new hidden directory.
 
 ```sh
-git clone git@github.com:BryanMarqz/dotfiles ~/.dotfiles
+# Use SSH (if set up)...
+git clone git@github.com:eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dotfiles
+
+# ...or use HTTPS and switch remotes later.
+git clone https://github.com/eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dotfiles
 ```
 
 ### Running the Bootstrap Script
