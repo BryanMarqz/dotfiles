@@ -8,8 +8,8 @@
 # Step 2: Import Preferences
 ~/.dotfiles/macOS/mac_bootstrap_scripts/preferences/import_preferences.sh
 
-# Step 3: Install Homebrew and Packages
-~/.dotfiles/macOS/mac_bootstrap_scripts/scripts/install_homebrew_and_packages.sh
+# Step 3: Install Homebrew Packages
+~/.dotfiles/macOS/mac_bootstrap_scripts/scripts/install_packages.sh
 
 # Step 4: Add cron job
 ~/.dotfiles/macOS/mac_bootstrap_scripts/scripts/add_cron_job.sh
