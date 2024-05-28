@@ -26,7 +26,7 @@ brew install git git-credential-manager
 git config --global user.name "Your Name"
 ```
 
-# Remember to use your own private GitHub email here.
+Remember to use your own private GitHub email here.
 ```sh
 git config --global user.email "123456789+odin@users.noreply.github.com"
 ```
@@ -45,12 +45,12 @@ cat ~/.ssh/id_ed25519.pub
 
 ### Clone repo into new hidden directory.
 
-# Use SSH (if set up)...
+Use SSH (if set up)...
 ```sh
 git clone git@github.com:BryanMarqz/dotfiles.git ~/.dotfiles
 ```
 
-# ...or use HTTPS and switch remotes later.
+...or use HTTPS and switch remotes later.
 ```sh
 git clone https://github.com/BryanMarqz/dotfiles.git ~/.dotfiles
 ```
