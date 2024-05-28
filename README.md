@@ -1,3 +1,19 @@
+# Steps to bootstrap a new Mac
+
+Install Apple's Command Line Tools, which are prerequisites for Git and Homebrew.
+
+''sh
+xcode-select --install
+Clone repo into new hidden directory.
+''
+
+# Use SSH (if set up)...
+git clone git@github.com:eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dotfiles
+
+# ...or use HTTPS and switch remotes later.
+git clone https://github.com/eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dotfiles
+
+
 # Bootstrap Scripts for various OS.
 
 This repository contains scripts to automate the bootstrapping of a new machines using dotfiles and package managers.
