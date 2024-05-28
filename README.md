@@ -9,7 +9,7 @@ This repository contains scripts to automate the bootstrapping of a new machines
 Run the `bootstrap_mac.sh` script to execute all steps at once:
 
 ```sh
-./bootstrap_mac.sh
+~/.dotfiles/macOS/mac_bootstrap_scripts/bootstrap_mac.sh
 ```
 
 ### Adding the Cron Job
@@ -17,7 +17,7 @@ Run the `bootstrap_mac.sh` script to execute all steps at once:
 To automate the Brewfile dump, run the `add_cron_job.sh` script:
 
 ```sh
-./add_cron_job.sh
+~/.dotfiles/macOS/mac_bootstrap_scripts/scripts/add_cron_job.sh
 ```
 
 ## Steps to Bootstrap a New Linux Machine (in progress)

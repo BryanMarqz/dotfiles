@@ -11,8 +11,11 @@
 # Step 3: Create Symlinks
 ./scripts/create_symlinks.sh
 
-# Step 4: Install Homebrew and Packages
+# Step 4: Import Preferences
+./../preferences/import_preferences.sh
+
+# Step 5: Install Homebrew and Packages
 ./scripts/install_homebrew_and_packages.sh
 
-# Step 5: Add cron job
+# Step 6: Add cron job
 ./scripts/add_cron_job.sh

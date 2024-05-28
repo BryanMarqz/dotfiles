@@ -9,3 +9,4 @@ ln -s ~/.dotfiles/macOS/.p10k.zsh ~/.p10k.zsh
 ln -s ~/.dotfiles/macOS/.vimrc ~/.vimrc
 ln -s ~/.dotfiles/macOS/.zprofile ~/.zprofile
 ln -s ~/.dotfiles/macOS/.zshrc ~/.zshrc
+ln -s ~/.dotfiles/macOS/mac_bootstrap_scripts/preferences ~/.preferences
