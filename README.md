@@ -1,18 +1,14 @@
 # Steps to bootstrap a new Mac
 
-Install Apple's Command Line Tools, which are prerequisites for Git and Homebrew.
+1. Install Apple's Command Line Tools, which are prerequisites for Git and Homebrew.
 
 ```sh
 xcode-select --install
-Clone repo into new hidden directory.
 ```
+2. Clone repo into new hidden directory.
 
-# Use SSH (if set up)...
-git clone git@github.com:eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dotfiles
-
-# ...or use HTTPS and switch remotes later.
-git clone https://github.com/eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dotfiles
-
+# Set up Git and use SSH...
+git clone git@github.com:BryanMarqz/dotfiles ~/.dotfiles
 
 # Bootstrap Scripts for various OS.
 
