@@ -26,8 +26,9 @@ brew install git git-credential-manager
 git config --global user.name "Your Name"
 ```
 
+# Remember to use your own private GitHub email here.
 ```sh
-git config --global user.email "123456789+odin@users.noreply.github.com" # Remember to use your own private GitHub email here.
+git config --global user.email "123456789+odin@users.noreply.github.com"
 ```
 
 ```sh
