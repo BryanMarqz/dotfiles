@@ -1,4 +1,4 @@
-# Steps to bootstrap a new Mac
+## Steps to bootstrap a new Mac
 
 1. Install Apple's Command Line Tools, which are prerequisites for Git and Homebrew.
 
@@ -7,14 +7,12 @@ xcode-select --install
 ```
 2. Clone repo into new hidden directory.
 
-# Set up Git and use SSH...
+### Set up Git and use SSH...
 git clone git@github.com:BryanMarqz/dotfiles ~/.dotfiles
 
-# Bootstrap Scripts for various OS.
+### Bootstrap Scripts for various OS.
 
 This repository contains scripts to automate the bootstrapping of a new machines using dotfiles and package managers.
-
-## Steps to Bootstrap a New Mac
 
 ### Running the Bootstrap Script
 
