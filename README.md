@@ -108,7 +108,5 @@ Run the `bootstrap_mac.sh` script to execute all steps at once:
      [font.normal]
      family = "MesloLGS NF"
      ```
-   - **puTTY**: Set *Window* → *Appearance* → *Font* to `MesloLGS NF`. Requires puTTY
-     version >= 0.75.
 4. Run `p10k configure` to generate a new `~/.p10k.zsh`. The old config may work
    incorrectly with the new font.
