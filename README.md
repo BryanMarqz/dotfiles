@@ -8,7 +8,10 @@ xcode-select --install
 2. Clone repo into new hidden directory.
 
 ### Set up Git and use SSH...
+
+```sh
 git clone git@github.com:BryanMarqz/dotfiles ~/.dotfiles
+```
 
 ### Bootstrap Scripts for various OS.
 
