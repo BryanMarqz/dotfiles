@@ -10,7 +10,7 @@ xcode-select --install
 
 2. Clone repo into new hidden directory.
 
-### Set up Git
+### Set up Git (optional)
 
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
