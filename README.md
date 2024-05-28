@@ -44,10 +44,10 @@ cat ~/.ssh/id_ed25519.pub
 
 ```sh
 # Use SSH (if set up)...
-git clone git@github.com:eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dotfiles
+git clone git@github.com:eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/
 
 # ...or use HTTPS and switch remotes later.
-git clone https://github.com/eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dotfiles
+git clone https://github.com/eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/
 ```
 
 ### Running the Bootstrap Script
