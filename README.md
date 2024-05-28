@@ -55,7 +55,7 @@ git clone https://github.com/eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dotf
 Run the `bootstrap_mac.sh` script to execute all steps at once:
 
 ```sh
-~/.dotfiles/macOS/mac_bootstrap_scripts/scripts/bootstrap_mac.sh
+~/.dotfiles/macOS/mac_bootstrap_scripts/bootstrap_mac.sh
 ```
 
 ### Adding the Cron Job
