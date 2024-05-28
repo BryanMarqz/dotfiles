@@ -77,8 +77,9 @@ Run the `bootstrap_mac.sh` script to execute all steps at once:
        https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf)
    - [MesloLGS NF Bold Italic.ttf](
        https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf)
-1. Double-click on each file and click "Install". This will make `MesloLGS NF` font available to all
+2. Double-click on each file and click "Install". This will make `MesloLGS NF` font available to all
    applications on your system.
+3. Configure your terminal to use this font:
    - **Apple Terminal**: Open *Terminal → Preferences → Profiles → Text*, click *Change* under *Font*
      and select `MesloLGS NF` family.
    - **Visual Studio Code**: Open *File → Preferences → Settings* (PC) or
@@ -106,3 +107,5 @@ Run the `bootstrap_mac.sh` script to execute all steps at once:
      ```
    - **puTTY**: Set *Window* → *Appearance* → *Font* to `MesloLGS NF`. Requires puTTY
      version >= 0.75.
+4. Run `p10k configure` to generate a new `~/.p10k.zsh`. The old config may work
+   incorrectly with the new font.
