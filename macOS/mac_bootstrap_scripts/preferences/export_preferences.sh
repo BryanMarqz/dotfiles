@@ -8,6 +8,7 @@ exclude_domains=(
     "com.apple.security.keychain"
     "com.apple.internetaccounts"
     "com.apple.accountsd"
+    "com.apple.FaceTime"
 )
 
 # Convert the array to a pattern string
