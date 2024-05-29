@@ -25,6 +25,13 @@ exclude_domains=(
     "com.apple.icloud.fmip"
     "com.apple.icloud.findmydevicelock"
     "com.apple.icloud.searchpartyuser"
+    "com.apple.FaceTime"
+    "com.apple.iChat"
+    "com.apple.imservice.FaceTime"
+    "com.apple.imservice.iMessage"
+    "com.apple.Messages"
+    "com.apple.identityservicesd"
+    "com.apple.imavagent"
 )
 
 # Convert the array to a pattern string
@@ -36,4 +43,3 @@ for domain in $(defaults domains | tr ',' '\n' | grep -Ev "$exclude_pattern"); d
     mkdir -p $export_dir
     defaults export $domain $export_dir/$domain.plist
 done
-
