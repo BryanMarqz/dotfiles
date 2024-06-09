@@ -25,5 +25,5 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-alias g++="g++ -ggdb -pedantic-errors -Wall -Weffc++ -Wextra -Wconversion -Wsign-conversion -std=c++2b"
+alias g++="g++ -g -ggdb -pedantic-errors -Wall -Weffc++ -Wextra -Wconversion -Wsign-conversion -std=c++2b"
 
