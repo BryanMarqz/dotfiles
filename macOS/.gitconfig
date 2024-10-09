@@ -1,8 +1,3 @@
-[credential]
-	helper = 
-	helper = /usr/local/share/gcm-core/git-credential-manager
-[credential "https://dev.azure.com"]
-	useHttpPath = true
 [user]
 	name = Bryan Márquez
 	email = 69647237+BryanMarqz@users.noreply.github.com
@@ -13,3 +8,8 @@
 	editor = vim
 [color]
 	ui = auto
+[credential]
+	helper = 
+	helper = /usr/local/share/gcm-core/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
